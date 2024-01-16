@@ -248,6 +248,9 @@ main {
     .description {
         width: 335px;
     }
+    .destination-title{
+        font-size: 20px;
+    }
 }
 
 /* medium */
