@@ -1,4 +1,9 @@
 /* header */
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 header {
     max-width: 1170px;
     margin: 0 auto;
@@ -71,6 +76,7 @@ nav li {
     line-height: normal;
     text-align: center;
     padding-top: 106px;
+    margin-top: 0px;
 
 }
 
@@ -130,6 +136,51 @@ select {
     border: 0px;
 }
 
+/* main */
+main{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* section 1 */
+
+.section-one {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.our-popular-tures {
+    max-width: 577px;
+}
+
+.section-one-title {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.description {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+
+}
+
+.section-one-img {
+    width: 540px;
+    height: 550px;
+}
+
 /* responsive */
 
 /* small */
@@ -157,11 +208,18 @@ select {
         margin-right: 0px;
         margin-bottom: 16px;
     }
+
+    .section-one{
+        flex-direction: column;
+    }
+    .our-popular-tures{
+        margin-bottom: 100px;
+    }
 }
 
 /* medium */
 
-@media screen and (min-width:600.001px) and (max-width: 992px){
+@media screen and (min-width:600.001px) and (max-width: 992px) {
     .banner-title {
         padding-top: 32px;
         font-size: 22px;
@@ -179,5 +237,11 @@ select {
     select {
         margin-right: 0px;
         margin-bottom: 16px;
+    }
+    .section-one{
+        flex-direction: column;
+    }
+    .our-popular-tures{
+        margin-bottom: 100px;   
     }
 }
