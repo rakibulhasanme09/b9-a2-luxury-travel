@@ -1,0 +1,61 @@
+/* header */
+header {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.incon-and-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.website-title {
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.black {
+    color: #131318;
+}
+
+.red {
+    color: #FF5400;
+}
+
+nav>ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* responsive */
+
+/* small */
+
+@media screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+}
