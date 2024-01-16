@@ -509,6 +509,10 @@ footer {
     margin-top: 20px;
 }
 
+.btn:hover{
+    background-color: #131318;
+}
+
 
 /* responsive */
 
