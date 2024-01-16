@@ -336,6 +336,47 @@ main {
     .destination-title {
         font-size: 20px;
     }
+
+    .first-row,
+    .second-row,
+    .third-row {
+        flex-direction: column;
+    }
+
+    #image-1 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-2 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-3 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-4 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-5 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-6 {
+        width: 335px;
+        height: 176px;
+    }
+    #image-7 {
+        width: 335px;
+        height: 176px;
+    }
+    .image{
+        background-size: cover;
+    }
+    .place{
+        margin-top: 75px;
+    }
 }
 
 /* medium */
