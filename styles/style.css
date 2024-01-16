@@ -58,6 +58,7 @@ nav li {
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 
 
@@ -95,6 +96,10 @@ nav li {
     padding: 16px;
 }
 
+::placeholder {
+    padding-left: 16px;
+}
+
 .input input,
 select {
     border-radius: 8px;
@@ -104,6 +109,9 @@ select {
     flex-shrink: 0;
     border: 0px;
     margin-right: 24px;
+}
+
+.input select {
     padding-left: 16px;
 }
 
@@ -136,9 +144,40 @@ select {
         font-size: 22px;
     }
 
-    .banner-description{
+    .banner-description {
         font-size: 14px;
     }
 
-    
+    .input {
+        width: 180px;
+    }
+
+    .input input,
+    select {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+}
+
+/* medium */
+
+@media screen and (min-width:600.001px) and (max-width: 992px){
+    .banner-title {
+        padding-top: 32px;
+        font-size: 22px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+    .input {
+        width: 180px;
+    }
+
+    .input input,
+    select {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
 }
