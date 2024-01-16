@@ -21,6 +21,7 @@ nav {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
 }
 
 .website-title {
@@ -418,7 +419,7 @@ main {
     width: 672px;
     height: 422px;
     border-radius: 16px;
-    
+
 }
 
 .save-up {
@@ -452,6 +453,33 @@ main {
     font-weight: 800;
     line-height: normal;
 }
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.social {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyright {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
 
 /* responsive */
 
@@ -576,9 +604,11 @@ main {
         width: 335px;
         height: 300px;
     }
-    .save-up{
+
+    .save-up {
         margin-top: 140px;
     }
+
 
 
 }
