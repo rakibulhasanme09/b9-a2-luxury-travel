@@ -205,6 +205,7 @@ main {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 48px;
 }
 
 .image {
@@ -278,6 +279,17 @@ main {
 
     width: 673px;
     height: 300px;
+}
+
+.place {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 132px;
 }
 
 
