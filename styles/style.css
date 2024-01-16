@@ -334,6 +334,7 @@ main {
     line-height: 26px;
 }
 
+
 #box-1 {
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
@@ -351,6 +352,34 @@ main {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     margin-bottom: 100px;
+}
+
+/* sec 4 */
+
+.section-four {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.section-four-img {
+    background-image: url(../images/Group\ 40089.png);
+    width: 610px;
+    height: 424px;
+
+}
+
+.sec-four-img-tit {
+    width: 276px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 176px auto;
+
 }
 
 
@@ -448,6 +477,28 @@ main {
     .place {
         margin-top: 75px;
     }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 335px;
+        height: 289px;
+    }
+
+    .box-title {
+        font-size: 20px;
+    }
+
+    .box-description {
+        font-size: 14px;
+    }
+
+    .section-four {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 /* medium */
@@ -478,6 +529,15 @@ main {
 
     .our-popular-tures {
         margin-bottom: 100px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .section-four {
+        flex-direction: column;
+        gap: 10px;
     }
 
 }
