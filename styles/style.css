@@ -50,12 +50,95 @@ nav li {
     line-height: normal;
 }
 
+/* banner */
+.banner {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Group\ 13\ \(1\)\ \(1\).png);
+    width: auto;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.banner-title {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 106px;
+
+}
+
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.input {
+    margin: 0 auto;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    width: 800px;
+    height: auto;
+    padding: 16px;
+}
+
+.input input,
+select {
+    border-radius: 8px;
+    background: #FFF;
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 0px;
+    margin-right: 24px;
+    padding-left: 16px;
+}
+
+.btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0px;
+}
+
 /* responsive */
 
 /* small */
 
 @media screen and (max-width: 600px) {
-    nav{
+    nav {
         flex-direction: column;
     }
+
+    .banner-title {
+        padding-top: 32px;
+        font-size: 22px;
+    }
+
+    .banner-description{
+        font-size: 14px;
+    }
+
+    
 }
